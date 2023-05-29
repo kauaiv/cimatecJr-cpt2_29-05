@@ -9,7 +9,7 @@
 * NECESSÁRIO: SIM, ainda precisamos de uma ferramenta que converta as diferentes tipos de função dentro do nosso código, para que o código seja compilado. Pórem, não precisa ser necessáriamente o babel.
 ---
 ### <center>WebPack
-* Faz o processo de bundle, pega vários arquivos fontes da nossa navegação e converter(agrupando) eles um único arquivo que contém vários arquivos dentro de suas especificações (.js+.hbs=js; .cjs+.sass=css ...);
+* Faz o processo de bundle, pega vários arquivos fontes da nossa navegação e converter(agrupando) eles um único arquivo que contém vários arquivos dentro de suas especificações (.js+.s=js; .cjs+.sass=css ...);
 * POR QUÊ: antes que o código vá ler nosso código, ele converte para que não ocorram problemas ou shocks entre os diferentes .js ou diferentes .css (e etc);
 * NECESSÁRIO: em alguns caso NÃO, hoje em dia, a maioria dos browsers é capaz de compreender o que forá dito.
 ---

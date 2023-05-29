@@ -1,4 +1,4 @@
-// Programação Assíncrona
+// programação assincrona
 
 // Async/await/promisses 
 {
@@ -25,9 +25,21 @@ async function main(){
 }
 
 main();
-
 }
 
-
+// fetch api
+{
+async function fetchUserData() {
+    try {
+      const response = await fetch('https://api.examplesnosnos,sionsAP.com/user'); // Faz a requisição para a API
+      const userData = await response.json(); // Converte a resposta para formato JSON
+      console.log(userData); // Exibe os dados do usuário no console
+    } catch (error) {
+      console.log('Ocorreu um erro:', error); // Trata erros, se houver algum
+    }
+  }
+  
+  fetchUserData();
+} 
 
 
